@@ -80,18 +80,6 @@ License
 
 MIT License
 
----
 
-### 📌 O que fazes agora (último passo mesmo):
-1. Cria um ficheiro `README.md`
-2. Cola este conteúdo
-3. Commit + push
-4. Release já com o `.exe` anexado
 
-Se quiseres, posso:
-- escrever a **descrição curta da Release**
-- validar o **nome final do repositório**
-- ou preparar um **CHANGELOG.md** rápido
-
-Mas tecnicamente: **está fechado.** ✔️
 
