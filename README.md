@@ -38,3 +38,60 @@ Run the executable with administrative privileges:
 
 ```text
 DFIR_QuickTriage.exe
+
+If not launched as administrator, the tool will automatically relaunch itself with elevated privileges.
+
+No installation is required.
+
+Digital Signature
+
+The release executable is digitally signed using a self-signed code signing certificate.
+
+Because the certificate is not issued by a public Certificate Authority (CA),
+Windows SmartScreen may display a warning on first execution.
+
+This does not affect the integrity or functionality of the executable.
+
+Intended Use
+
+This tool is intended for defensive DFIR and triage purposes only.
+
+It does not:
+
+exploit systems
+
+modify protected artefacts
+
+bypass security mechanisms
+
+perform attribution or malware verdicts
+
+All output is neutral, technical data.
+
+Limitations
+
+Designed for rapid triage, not full forensic acquisition
+
+Requires local administrative access
+
+Self-signed certificate is not trusted by default Windows installations
+
+License
+
+MIT License
+
+---
+
+### 📌 O que fazes agora (último passo mesmo):
+1. Cria um ficheiro `README.md`
+2. Cola este conteúdo
+3. Commit + push
+4. Release já com o `.exe` anexado
+
+Se quiseres, posso:
+- escrever a **descrição curta da Release**
+- validar o **nome final do repositório**
+- ou preparar um **CHANGELOG.md** rápido
+
+Mas tecnicamente: **está fechado.** ✔️
+
